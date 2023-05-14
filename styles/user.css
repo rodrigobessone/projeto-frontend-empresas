@@ -1,0 +1,155 @@
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 16px 140px;
+    background-color: var(-white);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0 120px;
+
+}
+
+.header__div-kenzie-empresas {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 240px;
+}
+
+.header__div-elipse {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: var(--brand-2);
+    margin-top: 7px;
+}
+
+.header__h2-kenzie-empresas {
+    width: 200px;
+    height: 20px;
+    font-weight: 700;
+}
+
+.header__div-logout {
+    display: flex;
+    justify-content: right;
+    width: 300px;
+}
+
+.header-logout {
+    justify-content: right;
+}
+
+.section__user {
+    padding: 25px 120px;
+}
+
+.div__username {
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    height: 137px;
+    padding: 16px 31px;
+    margin-bottom: 39px;
+}
+
+.h2__username {
+    font-family: "Inter",  sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: black;
+    
+}
+
+.h3__username {
+    font-family: "Inter",  sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: black
+}
+
+.div__result {
+    height: 467px;
+}
+
+.company__name {
+    width: 100%;
+    background-color: var(--brand-2);
+    height: 78px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.company__name-h2 {
+    font-weight: 700;
+    font-family: "Inter",  sans-serif;
+    color: var(--white);
+    font-size: 32px;
+}
+
+.users__list {
+    width: 100%;
+    padding: 39px 2.5rem;
+    background-color: rgba(248, 248, 248, 1);
+    list-style: none;
+    flex-wrap: wrap;
+    display: flex;
+    gap:1.9%;
+}
+
+.user__item {
+    min-width: 32%;
+    height: 95px;
+    border: 1px solid var(--brand-2);
+    padding: 17px 15px;
+    background-color: var(--white);
+    margin-top: 1.9%;
+}
+
+.div__empty {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 467px;
+    background-color: rgba(248, 248, 248, 1);
+}
+
+.div__empty-h2 {
+    font-weight: 700;
+    font-family: "Inter",  sans-serif;
+    
+}
+
+.hide {
+    display: none;
+}
+
+/* Toast */
+.toast {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 12px 20px;
+    border-radius: 6px;
+    font-size: 14px;
+    color: #fff;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    transition: opacity 0.3s ease-out;
+}
+
+.toast--visible {
+    opacity: 1;
+}
+
+.toast--green {
+    background-color: #1abc9c;
+}
+
+.toast--red {
+    background-color: #e74c3c;
+}

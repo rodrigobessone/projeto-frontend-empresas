@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/globalStyles.css">
+    <link rel="stylesheet" href="../styles/login.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+    <title>Kenzie Empresas</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__div-kenzie-empresas">
+            <div class="header__div-elipse"></div>
+            <h2 class="header__h2-kenzie-empresas">Kenzie Empresas</h2>
+        </div>
+        <div class="header__div-cadastro-login">
+            <button class="header-login button-white">Home</button>
+            <button class="header-cadastro button-blue sign-up-btn">Cadastro</button>
+        </div>
+    </header>
+
+    <div id="success-feedback" class="toast hide">
+        <i class="fa-solid fa-circle-check"></i>
+        <span id="success-span"></span>
+    </div>
+    <div id="error-feedback" class="toast hide">
+        <i class="fa-solid fa-circle-check"></i>
+        <span id="error-span"></span>
+    </div>
+    <section class="section__login">
+        <div id="login-form">
+            <h2 class="font-poppins">Login</h2>
+            <h3 class="instructions__h3">Escreva os campos para realizar login</h3>
+            <form>
+                <input type="email" id="email" name="email" placeholder="Seu e-mail"><br>
+                <input type="password" id="password" name="password" placeholder="Sua senha"><br>
+                <div class="div__options-or-buttons">
+                    <button type="submit" id="login-button" class="button-blue">Login</button>
+                    <span class="span-login">ou</span>
+                    <button type="button" class="sign-up-btn button-white" id="signup-button">Cadastrar-se</button>
+                </div>
+            </form>
+        </div>
+
+    </section>
+    <script type="module" src="../scripts/login.js"></script>
+</body>
+
+</html>

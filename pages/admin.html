@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/globalStyles.css">
+    <link rel="stylesheet" href="../styles/admin.css">
+    <link rel="stylesheet" href="../styles/modal.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+
+    <title>Kenzie Empresas</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__div-kenzie-empresas">
+            <div class="header__div-elipse"></div>
+            <h2 class="header__h2-kenzie-empresas">Kenzie Empresas</h2>
+        </div>
+        <div class="header__div-logout">
+            <button class="header-logout button-white">Logout</button>
+        </div>
+    </header>
+    <div id="success-feedback" class="toast hide">
+        <i class="fa-solid fa-circle-check"></i>
+        <span id="success-span"></span>
+    </div>
+    <div id="error-feedback" class="toast hide">
+        <i class="fa-solid fa-circle-check"></i>
+        <span id="error-span"></span>
+    </div>
+    <dialog class="modal__principal" id="modal-principal">
+        <button id="close">X</button>
+        <div class="modal__header">
+            <h2 class="modal__h2">Nome do departamento</h2>
+            <h3 class="modal__h3">Descrição do departamento</h3>
+            <span class="company__span">Empresa pertencente</span>
+            <div class="modal__text-container">
+                <select class="modal__select">
+                    <option selected  value="">Selecionar usuário</option>
+                </select>
+                <button class="hire__button">Contratar</button>
+            </div>
+            <ul class="modal_list" id="modal-list">
+ 
+            </ul>
+    </dialog>
+    <dialog class="create__department">
+        <button id="close__department">X</button>
+        <h2 class="create__department-h2">Criar departamento</h2>
+        <div class="div__department">
+            <input id="name__department" type="text" placeholder="Nome do departamento">
+            <input id="description__department" type="text" placeholder="Descrição">
+            <select class="department__select" id="department_select">
+                <option selected  value="">Selecionar empresa</option>
+            </select>
+            <button id="creates">Criar</button>
+        </div>
+    </dialog>
+    <dialog class="edit__department" id="edit-department">
+        <button class="close__edit-department">X</button>
+        <h2 class="edit__department-h2">Editar departamento</h2>
+        <textarea name="edit-modal-departmeent" id="" cols="30" rows="10" a class="edit__department-input"></textarea>
+
+        <button class="edit__department-button">Salvar</button>
+    </dialog>
+    <dialog class="delete__department" id="delete-department">
+        <button class="button__delete-close">X</button>
+        <div class="div__delete-department">
+            <h2 class="text__delete-department">Realmente deseja remover o Departamento <span id="nome__spam"></span> e
+                demitir seus funcionários?</h2>
+            <button class="button__remove-department">Remover</button>
+        </div>
+    </dialog>
+    <dialog class="edit__user">
+        <button id="close__edit-user">X</button>
+        <div class="div__edit-user">
+            <h2 class="edit__user-h2">Editar usuário</h2>
+            <input class="name__user-edit-input" placeholder="Nome" type="text">
+            <input class="email__user-edit-input" placeholder="E-mail" type="text">
+            <button class="button__save-user">Salvar</button>
+        </div>
+    </dialog>
+    <dialog class="delete__user">
+        <button class="button__delete-user-close">X</button>
+        <div class="div__delete-user">
+            <h2 class="text__delete-user">Realmente deseja remover <span id="name__span-sec"></span>?</h2>
+            <button class="button__remove-user">Remover</button>
+        </div>
+    </dialog>
+    <section class="section__admin">
+        <div class="div__select">
+            <select id="select_department" name="select-sector">
+                <option value="initial-value" selected>Selecionar Empresa</option>
+            </select>
+        </div>
+        <div class="div__create-departments">
+            <h2 class="div__create-departments-h2">Departamentos</h2>
+            <button class="button__create button-white">+ Criar</button>
+        </div>
+        <div class="div__empty hide">
+            <h2 class="hide__h2">Empresa NOME não possui departamentos</h2>
+        </div>
+        <ul class="departments__list">
+        </ul>
+        <div>
+            <h2>Usuários cadastrados</h2>
+        </div>
+        <div class="div__empty hide">
+            <h2 class="hide__h2">Empresa NOME não possui funcionários</h2>
+        </div>
+        <ul class="users__list">
+            <li class="user__item">
+                <div class="div__info-second">
+                    <h3 class="h3__info">Username</h3>
+                    <span class="span__info">NomeCompanhia</span>
+                </div>
+                <div class="div__icons-second">
+                    <button  id="pencil-second" src="../img/pencil.png" alt="">
+                    <button id="trash-second" src="../img/trash.png" alt="">
+                </div>
+            </li>
+            <li class="user__item"></li>
+            <li class="user__item"></li>
+        </ul>
+    </section>
+    <script type="module" src="../scripts/admin.js"></script>
+    <script type="module" src="../scripts/modal.js"></script>
+</body>
+
+</html>

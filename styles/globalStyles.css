@@ -1,0 +1,215 @@
+* {
+    font-family: 'Inter', sans-serif;
+    color: var(--grey1);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --action-1: #36B37E;
+    --action-2: #FF5630;
+    --action-3: #FFAB00;
+    --brand-1: #0000FF;
+    --brand-2: #3532FF;
+    --grey-1: #212529;
+    --grey-2: #495057;
+    --grey-3: #ADB5BD;
+    --grey-4: #E9ECEF;
+    --grey-5: #F1F3F5;
+    --white: #FFFFFF;
+}
+
+
+.title-1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.title-2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.title-1-bold {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.title-2-bold {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.title-2-medium {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.text-1-normal {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.text-1-bold {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.text-1-medium {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+
+.text-3-medium {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    color: var(--grey1);
+}
+
+.text2-regular {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.button {
+    width: 8.875rem;
+    height: 3rem;
+    border: none;
+    outline: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: var(--mode);
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.button-default {
+    background-color: var(--brand1);
+}
+
+.button-default:hover {
+    background-color: var(--brand2);
+}
+
+.button-default-outlined {
+    background-color: var(--mode);
+    border: 1px solid var(--brand1);
+    color: var(--brand1);
+}
+
+.button-action-1 {
+    background-color: var(--action1);
+
+}
+
+.button-action-2 {
+    background-color: var(--action2);
+}
+
+.font-poppins {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+::placeholder {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.button-white {
+    width: 142px;
+    height: 48px;
+    color: var(--brand-1);
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--white);
+    border: 1px solid var(--brand-1);
+}
+
+.button-white:hover {
+    color: var(--white);
+    background-color: var(--brand-1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+
+.button-blue {
+    width: 142px;
+    height: 48px;
+    color: var(--white);
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--brand-1);
+    border: 1px solid var(--brand-1);
+}
+
+.button-blue:hover {
+    color: var(--brand-1);
+    background-color: var(--white);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+

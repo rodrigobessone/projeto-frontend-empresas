@@ -1,0 +1,507 @@
+.modal__principal {
+    width: 857px;
+    height: 637px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0 43px;
+    background-color: rgba(255, 255, 255, 1);
+    border: none;
+}
+
+#close {
+    margin-left: 780px;
+    margin-top: 20px;
+    width: 20px;
+    height: 20px;
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+}
+
+.modal__h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    margin-top: -10px;
+    margin-bottom: 31px;
+}
+
+.modal__h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 11px;
+}
+
+.modal__span {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.modal__text-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal__select {
+    width: 565px;
+    height: 52px;
+    margin-top: 18px;
+    background-color: var(--white);
+    padding: 17px 17px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+    background-image: url('../img/Polygon\ 1.png');
+    background-position: right 18px top 50%;
+    background-repeat: no-repeat;
+}
+
+.hire__button {
+    height: 52px;
+    width: 190px;
+    color: var(--white);
+    background-color: var(--action-1);
+    margin-top: 18px;
+    color: var(--white);
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+
+}
+
+.hire__button:hover {
+    color: var(--white);
+    background-color: var(--action-1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.modal_list {
+    width: 100%;
+    height: 290px;
+    background-color: rgba(248, 248, 248, 1);
+    margin-top: 16px;
+    list-style: none;
+    display: flex;
+    overflow-x: auto;
+    align-items: center;
+    gap: 20px;
+    padding: 0 33px;
+}
+
+.modal_list::-webkit-scrollbar {
+    width: 312px;
+    height: 9px;
+}
+
+.modal_list::-webkit-scrollbar-thumb {
+    background-color: var(--brand-1);
+}
+
+.modal__item {
+    width: 306px;
+    height: 196px;
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid var(--brand-1);
+    padding: 18px 29px;
+}
+
+.modal__h3-sec {
+    margin-bottom: 11px;
+    font-family: "Inter", sans-serif;
+    font-family: 700;
+    font-size: 20px;
+
+}
+
+.modal__span {
+    font-family: "Inter", sans-serif;
+    font-family: 400;
+    font-size: 18px;
+    margin-bottom: 52px;
+}
+
+.modal__turnoff {
+    width: 255px;
+    height: 48px;
+    color: var(--action-2);
+    border: 1px solid var(--action-2);
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+/* Modal de departamentos */
+
+.create__department {
+    width: 506px;
+    height: 402px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0 43px;
+    background-color: rgba(255, 255, 255, 1);
+    border: none;
+}
+
+#close__department {
+    margin-left: 430px;
+    margin-top: 20px;
+    width: 20px;
+    height: 20px;
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+}
+
+.create__department-h2 {
+    margin-top: -4px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 20px;
+
+}
+
+.div__department {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#name__department {
+    width: 422px;
+    height: 52px;
+    padding: 17px 17px;
+    background-color: rgba(255, 255, 255, 1);
+    font-size: 17px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    margin-bottom: 13px;
+
+}
+
+#description__department {
+    width: 422px;
+    height: 52px;
+    padding: 17px 17px;
+    background-color: rgba(255, 255, 255, 1);
+    font-size: 17px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    margin-bottom: 13px;
+}
+
+.department__select {
+    width: 422px;
+    height: 52px;
+    padding: 17px 17px;
+    background-color: rgba(255, 255, 255, 1);
+    font-size: 17px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    margin-bottom: 13px;
+    background-color: var(--white);
+    padding: 17px 17px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+    background-image: url('../img/Polygon\ 1.png');
+    background-position: right 18px top 50%;
+    background-repeat: no-repeat;
+}
+
+#creates {
+    width: 422px;
+    height: 48px;
+    background-color: var(--action-1);
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    color: var(--white);
+}
+
+/* Editar departamento */
+
+.edit__department {
+    width: 506px;
+    height: 330px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0 43px;
+    background-color: rgba(255, 255, 255, 1);
+    border: none;
+}
+
+.close__edit-department {
+    margin-left: 430px;
+    margin-top: 20px;
+    width: 20px;
+    height: 20px;
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+}
+.edit__department-h2 {
+    margin-top: -14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.edit__department-input {
+    width: 422px;
+    height: 113px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    padding: 17px 17px;
+    font-weight: 400;
+    font-size: 17px;
+    font-family: "Inter", sans-serif;
+    resize: none;
+}
+
+.edit__department-button {
+    width: 422px;
+    height: 48px;
+    background-color: var(--action-1);
+    margin-top: 14px;
+    color: var(--white);
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+
+}
+
+.edit__department-button:hover {
+    color: var(--white);
+    background-color: var(--action-1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+/* Remover departamento */
+
+.delete__department {
+    width: 733px;
+    height: 342px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0 43px;
+    background-color: rgba(255, 255, 255, 1);
+    border: none;
+    
+}
+
+.div__delete-department {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.edit__user-h2 {
+
+}
+
+.button__delete-close {
+    margin-left: 655px;
+    margin-top: 18px;
+    width: 20px;
+    height: 20px;
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+}
+
+.text__delete-department {
+    width: 600px;
+    height: 120px;
+    font-family: "Poppins", sans-serif;
+    margin-top: 20px;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+.button__remove-department {
+    width: 422px;
+    height: 48px;
+    margin-top: -20px;
+    background-color: var(--action-2);
+    color: var(--white);
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    border: none;
+
+}
+
+.button__remove-department:hover {
+    color: var(--white);
+    background-color: var(--action-2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+/* Modal editar usuário */
+
+.edit__user {
+    width: 506px;
+    height: 359px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0 33px;
+    background-color: rgba(255, 255, 255, 1);
+    border: none;
+    
+}
+
+.div__edit-user {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 15px;
+}
+
+#close__edit-user {
+    margin-left: 430px;
+    margin-top: 20px;
+    width: 20px;
+    height: 20px;
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+}
+
+.edit__user-h2 {
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    font-size: 42px;
+}
+
+.name__user-edit-input {
+    margin-top: 20px;
+    height: 52px;
+    width: 422px;
+    padding: 17px 17px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.email__user-edit-input {
+    margin-top: 16px;
+    height: 52px;
+    width: 422px;
+    padding: 17px 17px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.button__save-user {
+    margin-top: 36px;
+    height: 52px;
+    width: 422px;
+    background-color: var(--action-1);
+    color: var(--white);
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+
+}
+
+.button__save-user:hover {
+    color: var(--white);
+    background-color: var(--action-1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+/* Modal remover usuário */
+
+.delete__user {
+    width: 733px;
+    height: 292px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0 43px;
+    background-color: rgba(255, 255, 255, 1);
+    border: none;
+}
+
+.button__delete-user-close {
+    margin-left: 655px;
+    margin-top: 18px;
+    width: 20px;
+    height: 20px;
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+}
+
+.div__delete-user {
+    margin-top: 35px;
+    padding: 0 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text__delete-user {
+    text-align: center;
+    text-justify: center;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    font-size: 35px;
+}
+
+.button__remove-user {
+    width: 422px;
+    height: 48px;
+    background-color: var(--action-2);
+    color: var(--white);
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    margin-top: 34px;
+}
+
+.button__remove-user:hover {
+    color: var(--white);
+    background-color: var(--action-2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
